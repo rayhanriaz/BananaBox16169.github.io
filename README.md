@@ -1,5 +1,4 @@
-# BananaBox16169.github.io
-Banana Box web site
+# Banana Box web site
 
 ## Website layout
 This website is built using [Mkdocs](https://www.mkdocs.org/user-guide/writing-your-docs/) utilizing the [Mkdocs Gradle Plugin](https://xvik.github.io/gradle-mkdocs-plugin/latest/).

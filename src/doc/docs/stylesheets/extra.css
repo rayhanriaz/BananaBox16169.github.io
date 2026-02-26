@@ -1,0 +1,99 @@
+/* =========================================================
+   Banana Box color scheme overrides
+   Light mode: white main background + black text,
+               header/footer black + yellow text
+   Dark mode:  black everywhere + yellow text
+   ========================================================= */
+
+/* ... existing code ... */
+
+/* Light mode (Material "default" scheme) */
+body[data-md-color-scheme="default"] {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+body[data-md-color-scheme="default"] .md-main,
+body[data-md-color-scheme="default"] .md-content,
+body[data-md-color-scheme="default"] .md-content__inner,
+body[data-md-color-scheme="default"] .md-typeset {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+body[data-md-color-scheme="default"] .md-header,
+body[data-md-color-scheme="default"] .md-tabs,
+body[data-md-color-scheme="default"] .md-footer,
+body[data-md-color-scheme="default"] .md-footer-meta {
+    background: #000000 !important;
+    color: #ffd400 !important;
+}
+
+/* Only make header/tabs/footer links yellow (not the page nav in the main area) */
+body[data-md-color-scheme="default"] .md-header a,
+body[data-md-color-scheme="default"] .md-header__button,
+body[data-md-color-scheme="default"] .md-header__title,
+body[data-md-color-scheme="default"] .md-tabs a,
+body[data-md-color-scheme="default"] .md-footer a,
+body[data-md-color-scheme="default"] .md-footer-meta a {
+    color: #ffd400 !important;
+}
+
+/* Ensure navigation inside the page (sidebars) stays black in light mode */
+body[data-md-color-scheme="default"] .md-nav__title,
+body[data-md-color-scheme="default"] .md-nav__link,
+body[data-md-color-scheme="default"] .md-nav__item .md-ellipsis,
+body[data-md-color-scheme="default"] .md-nav__link .md-ellipsis {
+    color: #000000 !important;
+}
+
+/* ... existing code ... */
+
+/* Dark mode (Material "slate" scheme) */
+body[data-md-color-scheme="slate"] {
+    background: #000000 !important;
+    color: #ffd400 !important;
+}
+
+body[data-md-color-scheme="slate"] .md-main,
+body[data-md-color-scheme="slate"] .md-content,
+body[data-md-color-scheme="slate"] .md-content__inner,
+body[data-md-color-scheme="slate"] .md-typeset {
+    background: #000000 !important;
+    color: #ffd400 !important;
+}
+
+body[data-md-color-scheme="slate"] .md-header,
+body[data-md-color-scheme="slate"] .md-tabs,
+body[data-md-color-scheme="slate"] .md-footer,
+body[data-md-color-scheme="slate"] .md-footer-meta {
+    background: #000000 !important;
+    color: #ffd400 !important;
+}
+
+body[data-md-color-scheme="slate"] a,
+body[data-md-color-scheme="slate"] .md-header a,
+body[data-md-color-scheme="slate"] .md-tabs a,
+body[data-md-color-scheme="slate"] .md-footer a,
+body[data-md-color-scheme="slate"] .md-footer-meta a,
+body[data-md-color-scheme="slate"] .md-header__button,
+body[data-md-color-scheme="slate"] .md-header__title,
+body[data-md-color-scheme="slate"] .md-ellipsis {
+    color: #ffd400 !important;
+}
+
+.md-header__title {
+    margin-left: 0 !important;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80% !important;
+}
+
+body[data-md-color-scheme="slate"] main img {
+    border-radius: 1rem;
+    padding: 1rem;
+    background: rgba(226, 228, 233, 0.82);
+}

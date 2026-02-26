@@ -1,0 +1,91 @@
+name: Publish docs
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  id-token: write
+  pull-requests: write
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    name: Build/publish Docs
+    if: github.repository == 'MrWansBoxes/BananaBox16169.github.io'
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+          path: app
+
+      - name: Get docs
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: gh-pages
+          path: docs
+
+      - name: Setup Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: '3.x'
+
+      - name: Setup Java 21
+        uses: actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 # v5.2.0
+        with:
+          java-version: 21
+          distribution: temurin
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c # v5.0.2
+
+      - name: Generate documentation
+        working-directory: app
+        run: ./gradlew --console=plain build
+
+      - name: Copy to gh-pages
+        run: cp -Rf app/build/mkdocs/* docs/
+
+      - uses: actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf # v2.2.1
+        id: app-token
+        with:
+          app-id: ${{ vars.DOCLING_JAVA_CI_APP_ID }}
+          private-key: ${{ secrets.DOCLING_JAVA_CI_PRIVATE_KEY }}
+
+      - name: Create PR
+        id: create-pr
+        uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          path: docs
+          commit-message: "docs: Build and publish docs (from ${{ github.workflow }} run # ${{ github.run_number }})"
+          branch: build-docs/sourceref
+          branch-suffix: short-commit-hash
+          delete-branch: true
+          base: gh-pages
+          signoff: true
+          sign-commits: true
+          title: "docs: Build and publish docs (from ${{ github.workflow }} run # ${{ github.run_number }})"
+          body: "docs: Build and publish docs from [${{ github.workflow }} run # ${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}), which was triggered by commit ${{ env.REF }}."
+          labels: documentation
+
+      - name: Merge PR
+        if: (steps.create-pr.outputs.pull-request-operation == 'created') && steps.create-pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: gh pr merge --merge --admin --delete-branch "${{ steps.create-pr.outputs.pull-request-url }}"

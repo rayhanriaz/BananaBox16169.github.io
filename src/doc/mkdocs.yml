@@ -32,7 +32,7 @@ theme:
         name: Switch to system preference
 
   logo: assets/img/BananaBoxLogo.png
-  favicon: assets/img/logo.png
+  favicon: assets/img/BananaBoxLogo.png
   features:
     - content.tabs.link
     - content.code.annotate

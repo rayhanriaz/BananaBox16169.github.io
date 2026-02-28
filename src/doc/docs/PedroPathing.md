@@ -1,0 +1,1 @@
+How we use pedro pathing to make paths in auto and teleop

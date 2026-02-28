@@ -1,1 +1,0 @@
-This is another page at the same level as index.

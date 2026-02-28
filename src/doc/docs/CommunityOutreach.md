@@ -1,0 +1,1 @@
+All outreach events excluding qualifier and scrimmage

@@ -1,0 +1,1 @@
+4 FLL YMCA teams, 3 FLL Windham teams, Blue Box, Servo Breakers, and Astro Box.

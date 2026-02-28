@@ -1,0 +1,1 @@
+Outreach relating to the qualifier and scrimmage we hosted

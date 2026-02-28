@@ -54,8 +54,24 @@ theme:
 nav:
   - Home:
       - Welcome: index.md
-      - Nested: nestedpage.md
-  - Another: anotherpage.md
+  - Robot:
+      - Robot Design: RobotDesign.md
+      - Robot Strategy: RobotStrategy.md
+      - Beta Testing: BetaTesting.md
+  - Program:
+      - Launcher Math: LauncherMath.md
+      - Pedro Pathing: PedroPathing.md
+  - Outreach:
+      - Community Outreach: CommunityOutreach.md
+      - FIRST Outreach: FIRSTOutreach.md
+      - Sustainability Plan: SustainabilityPlan.md
+  - Fundraising & Mentorship:
+      - Fundraising: Fundraising.md
+      - Mentorship: Mentorship.md
+  - Awards:
+      - Awards: Awards.md
+
+
 
 markdown_extensions:
   - pymdownx.critic

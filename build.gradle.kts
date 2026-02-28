@@ -17,6 +17,12 @@ python {
   )
 }
 
+mkdocs {
+  publish {
+    docPath = ""
+  }
+}
+
 tasks.register("build") {
   dependsOn(tasks.named("mkdocsBuild"))
 }

@@ -8,6 +8,7 @@ on:
       - reopened
     paths:
       - 'build.gradle.kts'
+      - 'src/**'
 
 permissions:
   contents: read

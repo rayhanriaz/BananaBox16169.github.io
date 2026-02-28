@@ -8,7 +8,7 @@ Section 1
 
 This is how you render an image:
 
-![logo](assets/img/logo.png){ width="600", height="600" }
+![logo](assets/img/BananaBoxLogo.png){ width="600", height="600" }
 
 ### Section 1.1
 

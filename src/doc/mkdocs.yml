@@ -52,7 +52,10 @@ theme:
     - search.suggest
     - toc.follow
 nav:
-  - Welcome: index.md
+  - Home:
+      - Welcome: index.md
+      - Nested: nestedpage.md
+  - Another: anotherpage.md
 
 markdown_extensions:
   - pymdownx.critic

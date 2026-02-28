@@ -31,7 +31,7 @@ theme:
         icon: material/brightness-auto
         name: Switch to system preference
 
-  logo: assets/img/logo.png
+  logo: assets/img/BananaBoxLogo.png
   favicon: assets/img/logo.png
   features:
     - content.tabs.link

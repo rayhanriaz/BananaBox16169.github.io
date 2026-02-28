@@ -25,7 +25,7 @@ If you'd like to render the site locally, just run `gradlew mkdocsServe`. You'll
          INFO    -  [15:25:33] Serving on http://127.0.0.1:3000/BananaBox16169/
 ```
 
-You can open your browser to http://127.0.0.1:3000/BananaBox16169/ to view the site.
+You can open your browser to http://127.0.0.1:3000/ to view the site.
 
 ## Publishing the site
 The site will auto-publish to GitHub Pages when a commit is pushed to the `main` branch, either via a pull request (recommended) or direct push (not recommended).

@@ -8,7 +8,7 @@ Section 1
 
 This is how you render an image:
 
-![logo](assets/img/BananaBoxLogo.png){ width="600", height="600" }
+![logo](assets/img/BananaBoxLogo.png){: style="display: block; margin: 0 auto;" width="600" }
 
 ### Section 1.1
 

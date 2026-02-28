@@ -97,3 +97,6 @@ body[data-md-color-scheme="slate"] main img {
     padding: 1rem;
     background: rgba(226, 228, 233, 0.82);
 }
+.center-text {
+    text-align: center;
+}

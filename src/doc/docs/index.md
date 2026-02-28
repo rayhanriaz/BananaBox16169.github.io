@@ -7,6 +7,7 @@ Welcome to www.ftcbananabox.com
 Section 1
 
 This is how you render an image:
+{: .center-text}
 
 ![logo](assets/img/BananaBoxLogo.png){: style="display: block; margin: 0 auto;" width="600" }
 

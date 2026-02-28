@@ -26,14 +26,16 @@ OUTREACH GOAL: By the end of the DECODE season, we will have spread FIRST roboti
 
 ### Milestones
 
-- April 2025: ROBOT: CAD & JAVA Programming Refreshers OUTREACH: Plaistow Public Library and Londonderry YMCA (105 Participants)
-- June & August 2025: ROBOT: Belt System Drivetrain, Limelight Learning, Team Development
-- September 2025: OUTREACH: Wicked Stem Festival and Thunder Over NH Airshow (20K+ Particpants)
-- October 2025: ROBOT: CAD ROBOT, FTCSIM Simulation, Prototyping, Design Iterations OUTREACH: MIT Undergraduate Research Technology Conference (738 Participants)
-- November 2025: ROBOT: Scrimmage Robot complete, 5 Artifact Autonomous OUTREACH: Host NH FTC Scrimmage #2 (23 Teams, 300+ Participants)
-- December 2025: ROBOT: Qualifier Robot complete, 9 Artifact Autonomous
-- January 2026: ROBOT: Design and Build State Robot, Construct Autonomous
-- February 2026: ROBOT: Test and Improve Robot Teleop and Autonomous, State Robot Complete OUTREACH: Host NH FTC Qualifier #5 (22 Teams, 300+ Participants)
+| Month              | Robot                                                              | Outreach                                                            |
+|--------------------|--------------------------------------------------------------------|---------------------------------------------------------------------|
+| April 2025         | CAD & JAVA Programming Refreshers                                  | Plaistow Public Library and Londonderry YMCA (105 Participants)     |
+| June & August 2025 | Belt System Drivetrain, Limelight Learning, Team Development       | N/A                                                                 |
+| September 2025     | N/A                                                                | Wicked Stem Festival and Thunder Over NH Airshow (20K+ Particpants) |
+| October 2025       | CAD ROBOT, FTCSIM Simulation, Prototyping, Design Iterations       | MIT Undergraduate Research Technology Conference (738 Participants) |
+| November 2025      | Scrimmage Robot complete, 5 Artifact Autonomous                    | Host NH FTC Scrimmage #2 (23 Teams, 300+ Participants)              |
+| December 2025      | Qualifier Robot complete, 9 Artifact Autonomous                    | N/A                                                                 |
+| January 2026       | Design and Build State Robot, Construct Autonomous                 | N/A                                                                 |
+| February 2026      | Test and Improve Robot Teleop and Autonomous, State Robot Complete | Host NH FTC Qualifier #5 (22 Teams, 300+ Participants)              |
 
 ## Social Media
 

@@ -1,31 +1,56 @@
 # FTC # 16169 - Banana Box
 
-Welcome to www.ftcbananabox.com
+![logo](assets/img/BBoxTeamPhoto.png){: style="display: block; margin: 0 auto;" width="600" }
+![logo](assets/img/TeamRobot.png){: style="display: block; margin: 0 auto;" width="600" }
 
-## Section 1
+Welcome to FTC Team 16169 Banana Box’s website! We are a dedicated community team of high school students based in Windham, NH, passionate about robotics and technology. We hope to teach others about FIRST, and share a little insight of our own team and growth.
 
-Section 1
+## Meet the Team
 
-This is how you render an image:
+Rayhan Riaz - Team Captain & Main Driver
 
-![logo](assets/img/BananaBoxLogo.png){: style="display: block; margin: 0 auto;" width="600" }
+Stefan Barbu - Promotor, Mechanic
 
-### Section 1.1
+Ethan Deandrea - Lead Programmer, Second Driver
 
-Section 1.1
+Kiaan Mehta - Programmer, Mechanic
 
-### Section 1.2
+Govind Valiyodiyil - Co-Captain, Lead Designer
 
-Section 1.2
+Matthew Dona - Lead Scout, Mechanic
 
-## Section 2
+Aditya Biju - Lead Mechanic, Co-Human Player
 
-Section 2
+Pranav Mantena - Lead Outreach, Human Player
 
-### Section 2.1
 
-Section 2.1
 
-### Section 2.2
+## Our Team Goals
 
-Section 2.2
+ROBOT PERFORMANCE GOAL: By the FTC World Championship, we will reliably score at least 18 artifacts autonomously and consistently cycle (score and reset) artifacts during the driver-controlled phase.
+
+OUTREACH GOAL: By the end of the DECODE season, we will have spread FIRST robotics to hundreds of young learners and professionals, through hands-on workshops and online networking.
+
+### Milestones
+
+April 2025: ROBOT: CAD & JAVA Programming Refreshers OUTREACH: Plaistow Public Library and Londonderry YMCA (105 Participants)
+
+June & August 2025: ROBOT: Belt System Drivetrain, Limelight Learning, Team Development
+
+September 2025: OUTREACH: Wicked Stem Festival and Thunder Over NH Airshow (20K+ Particpants)
+
+October 2025: ROBOT: CAD ROBOT, FTCSIM Simulation, Prototyping, Design Iterations OUTREACH: MIT Undergraduate Research Technology Conference (738 Participants)
+
+November 2025: ROBOT: Scrimmage Robot complete, 5 Artifact Autonomous OUTREACH: Host NH FTC Scrimmage #2 (23 Teams, 300+ Participants)
+
+December 2025: ROBOT: Qualifier Robot complete, 9 Artifact Autonomous
+
+January 2026: ROBOT: Design and Build State Robot, Construct Autonomous
+
+February 2026: ROBOT: Test and Improve Robot Teleop and Autonomous, State Robot Complete OUTREACH: Host NH FTC Qualifier #5 (22 Teams, 300+ Participants)
+
+## Social Media
+
+(logo)INSTAGRAM: @bananabox_ftc_16169
+
+(logo)YOUTUBE: @FTCBananaBox 16169

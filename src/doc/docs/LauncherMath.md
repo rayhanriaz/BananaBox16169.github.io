@@ -79,7 +79,14 @@ double TPS = targetRPM * 28 / 60;
 ```
 
 The equation for the flywheel RPM is the same as the hood ange except C replaces A and D replaces B. The velocity compensation is built into the same equation as the flywheel RPM so that the RPM can adjust while on the move. The velocity equation
-allows us to shoot while the robot is in motion, which is very versatile, especially for this season, due to the numerous collisions occurring throughout the match. The equation gathers and stores the turret’s current position in radians, 
+allows us to shoot while the robot is in motion, which is very versatile, especially for this season, due to the numerous collisions occurring throughout the match. The equation gathers and stores the turret’s current position in radians,
 then collects the velocity of the robot and calculates what the angle the turret, flywheel RPM, and hood angle need to be in order to land in the goal.
 
+## Pedro Pathing
+
+We use Pedro Pathing to create our paths in auto and to get the current velocity of the robot which is used by our velocity equation. For the auto paths we use a tool called [Pedro Pathing Visualizer](https://visualizer.pedropathing.com/), this allows us to
+draw out our paths instead of guessing the coordinates. Pedro Pathing also has a built-in command to find the current velocity of the robot. Overall Pedro Pathing is one of the best open-source tools out there for FTC.
+
+
+[Contact us](https://mail.google.com/mail/u/0/#inbox?compose=VpCqJWJLZJTtQqPTRXVczhBtcqQQbsBXSGHnGnmKGHGKBKvjMjTtBfdJZcSkvrNGSwmqMlv){ .md-button }
 

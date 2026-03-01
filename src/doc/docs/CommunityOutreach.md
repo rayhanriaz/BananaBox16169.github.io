@@ -47,6 +47,3 @@ Our team organized a sleepover at our workshop to fight time constraints, improv
 Impact: We boosted our Productivity and Team Bonding, while helping our Remote Neighbor.
 
 ![Snow Shoveling Photo](assets/img/Shovel.png){: style="display: block; margin: 0 auto;" width="600" }
-
-
-[Contact us](https://mail.google.com/mail/u/0/?fs=1&to=ftcbananabox16169@gmail.com&tf=cm){ .md-button }

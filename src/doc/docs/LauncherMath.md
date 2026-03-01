@@ -88,5 +88,3 @@ We use Pedro Pathing to create our paths in auto and to get the current velocity
 draw out our paths instead of guessing the coordinates. Pedro Pathing also has a built-in command to find the current velocity of the robot. Overall Pedro Pathing is one of the best open-source tools out there for FTC.
 
 
-[Contact us](https://mail.google.com/mail/u/0/?fs=1&to=ftcbananabox16169@gmail.com&tf=cm){ .md-button }
-

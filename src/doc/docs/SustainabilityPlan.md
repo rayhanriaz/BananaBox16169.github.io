@@ -36,5 +36,3 @@ In Resource Stability, we maintain an efficient and organized environment. We al
 ### Set Goals → Execute Season → Measure Results → Improve Next Year
 
 In Succession, we set S.M.A.R.T goals every season. In addition, we evaluate and improve team processes.
-
-[Contact us](https://mail.google.com/mail/u/0/?fs=1&to=ftcbananabox16169@gmail.com&tf=cm){ .md-button }

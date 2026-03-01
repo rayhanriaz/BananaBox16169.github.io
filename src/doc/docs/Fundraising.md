@@ -13,5 +13,3 @@ Banana Box, partnered with our FLL teams Team Major and Saucy Blue Box, held a c
 ![FTCPossible](assets/img/FTCPossible.png){: style="display: block; margin: 0 auto;" width="600" }
 
 Since NH FIRST lost one of their main sponsors, Autodesk, we decided to brainstorm ideas for alternative fundraising. While doing this we came up with Mission FTC-Possible. The plan is to set up a few tables at each FIRST competition for local companies to purchase to advertise their product. W would sell each tables based off the type of competition (scrimmage, qualifier, or state championship). The plan is ongoing, and we are still in the process of communicating with FIRST and following, the companies. 
-
-[Contact us](https://mail.google.com/mail/u/0/?fs=1&to=ftcbananabox16169@gmail.com&tf=cm){ .md-button }

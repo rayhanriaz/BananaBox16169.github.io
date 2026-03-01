@@ -42,5 +42,3 @@ OUTREACH GOAL: By the end of the DECODE season, we will have spread FIRST roboti
 [Instagram: @bananabox_ftc_16169](https://www.instagram.com/bananabox_ftc_16169/)
 
 [YouTube: @FTCBananaBox16169](https://www.youtube.com/@FTCBananaBox16169)
-
-[Contact us](https://mail.google.com/mail/u/0/?fs=1&to=ftcbananabox16169@gmail.com&tf=cm){ .md-button }
